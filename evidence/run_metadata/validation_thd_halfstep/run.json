@@ -1,0 +1,20 @@
+{
+  "success": true,
+  "sha256": "a27c7c40a19e3184134d7d65b61361e6edd3b0434aa1ba5c0846e7fa1bfc7edb",
+  "returncode": 0,
+  "wall_s": 13.510541915893555,
+  "command": [
+    "/Applications/LTspice.app/Contents/SharedSupport/ltspice/LTspice/run_ltspice",
+    "-b",
+    "-ascii",
+    "test.cir"
+  ],
+  "conditions": {
+    "stage": [
+      8,
+      8
+    ],
+    "gain": 16,
+    "dt_ns": 1
+  }
+}

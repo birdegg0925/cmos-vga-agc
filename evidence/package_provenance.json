@@ -1,0 +1,375 @@
+{
+  "copied": [
+    {
+      "source": "vga/study.py",
+      "destination": "vga/study.py",
+      "source_sha256": "a7c111d335cf5a8f4322729ca36a6d888c458b28f996c92fad7d6b4749c94d41"
+    },
+    {
+      "source": "vga/check_rejected.py",
+      "destination": "vga/check_rejected.py",
+      "source_sha256": "4df7ad77c742b657348182a25303b31f88c85323900226d25a94b3bdf561cf3d"
+    },
+    {
+      "source": "vga/verify_existing_claims.py",
+      "destination": "vga/verify_existing_claims.py",
+      "source_sha256": "66b20e29daf07c0e2562e422c9c1be20289b235749026151ab19fba2b96eabda"
+    },
+    {
+      "source": "vga/validation_extension_protocol.json",
+      "destination": "vga/validation_extension_protocol.json",
+      "source_sha256": "fb2c048d80ac0dad57868e34068e5f99dcbb3db03315da7174765f5c2d9358f9"
+    },
+    {
+      "source": "vga/helpers/run.py",
+      "destination": "vga/helpers/run.py",
+      "source_sha256": "7a455d53f27f352dfa59bfdcd278b1b0a42ec373df7fc8fdd45c55fe8ff47697"
+    },
+    {
+      "source": "vga/helpers/measure.py",
+      "destination": "vga/helpers/measure.py",
+      "source_sha256": "44c9a59e77d8420ec9b91a889a640097fd47c7c9fac83132d899c00bba301684"
+    },
+    {
+      "source": "vga/models/vga.lib",
+      "destination": "vga/models/vga.lib",
+      "source_sha256": "4cb2707c735149c5ec79f127ce565c6b431f0cc167503fde081192f69315e656"
+    },
+    {
+      "source": "vga/results/cascade_summary.json",
+      "destination": "vga/results/cascade_summary.json",
+      "source_sha256": "1183467cd500d7cae89a61f19ef4655fbb099d7883c8a4c97c8828fc01652190"
+    },
+    {
+      "source": "vga/results/existing_claims_verification.json",
+      "destination": "vga/results/existing_claims_verification.json",
+      "source_sha256": "b58a0368024f820db5c81f9741b1a544a6d65eb00d27cf954c72a832d1edf102"
+    },
+    {
+      "source": "vga/results/agc_static.csv",
+      "destination": "vga/results/agc_static.csv",
+      "source_sha256": "449e46d1771db917eaf6ecc5f739555f7c3965fea28c483849d8ed9d03849949"
+    },
+    {
+      "source": "vga/results/stage_selection.json",
+      "destination": "vga/results/stage_selection.json",
+      "source_sha256": "e44f66806d415eb266f6aa6ed52743544663505bfb369513d6ee0ed6e9fd20d7"
+    },
+    {
+      "source": "vga/results/controller_selection.json",
+      "destination": "vga/results/controller_selection.json",
+      "source_sha256": "5c5be00c8c91a5bb8a8642968bc65e92be0de6e301a31429b51bff7a78f3a674"
+    },
+    {
+      "source": "vga/results/input_reconstruction.csv",
+      "destination": "vga/results/input_reconstruction.csv",
+      "source_sha256": "912d79d39870e71755feb646ec63acfabc2de0b54be6bffe2d0a99d5b8dfaa06"
+    },
+    {
+      "source": "vga/results/selected_core_summary.json",
+      "destination": "vga/results/selected_core_summary.json",
+      "source_sha256": "49972b0834fee3c6f861afae3e3883209be69d0b2c288bd5da099159e0c4f21a"
+    },
+    {
+      "source": "vga/results/stage6x10_points.json",
+      "destination": "vga/results/stage6x10_points.json",
+      "source_sha256": "2d602829172c1d2f11dcfb803228770cf367bc7b32f1b8c4b4fffdc3786b8fa4"
+    },
+    {
+      "source": "vga/results/verified_temperature.csv",
+      "destination": "vga/results/verified_temperature.csv",
+      "source_sha256": "de95c27a85f6e40bd5e8a31c4d28cbf56129e63ecbca993a087712882101159e"
+    },
+    {
+      "source": "vga/results/stage8x8_calibration.json",
+      "destination": "vga/results/stage8x8_calibration.json",
+      "source_sha256": "1ec6c04edd55b3affe5a8159598a22a895aebeadf3f28374a7310b56336996db"
+    },
+    {
+      "source": "vga/results/agc_dynamic.csv",
+      "destination": "vga/results/agc_dynamic.csv",
+      "source_sha256": "1eafc5f63284f5cb8a9783b2f8ca2cb1e7db3c97e76a2228f2ec34a3fe630cea"
+    },
+    {
+      "source": "vga/results/stage8x8_points.json",
+      "destination": "vga/results/stage8x8_points.json",
+      "source_sha256": "628f7db4cbf71556308cfed9ef5cb0589177a63ff0e09e5d8d5f4f11604e385e"
+    },
+    {
+      "source": "vga/results/validation.json",
+      "destination": "vga/results/validation.json",
+      "source_sha256": "dadb53edb9328bf43f70aba07484c5fb7b03cb2b10d63a981b14da4ec0b5b858"
+    },
+    {
+      "source": "vga/results/rejected_halfstep_check.json",
+      "destination": "vga/results/rejected_halfstep_check.json",
+      "source_sha256": "12a17bc8f385eb1c1bc2d5290c8ff2e08082f3bc8c63196c92168b8e934c2440"
+    },
+    {
+      "source": "vga/results/stage6x10_calibration.json",
+      "destination": "vga/results/stage6x10_calibration.json",
+      "source_sha256": "90e6cc397e6db64221d40366d37781d7230fe218c2e90faf0fb53ba636086bab"
+    },
+    {
+      "source": "vga/results/cascade_agc.csv",
+      "destination": "vga/results/cascade_agc.csv",
+      "source_sha256": "6a506d30c33218768bb73e43e3672f2a6d45a50b436ddd7c7d83f7dc613a4994"
+    },
+    {
+      "source": "vga/results/cascade_ac.csv",
+      "destination": "vga/results/cascade_ac.csv",
+      "source_sha256": "6baac554ecc28f15da5f2d647e5547a521945f133b7b36ead7ece9784e3455f2"
+    },
+    {
+      "source": "vga/results/noise_summary.csv",
+      "destination": "vga/results/noise_summary.csv",
+      "source_sha256": "6436cafa003fcafecb7b2597347c6246b6f6ebbc7edfb89ac8d523c9fae422f9"
+    },
+    {
+      "source": "vga/runs/dynamic_k87000_259to36/test.cir",
+      "destination": "vga/runs/dynamic_k87000_259to36/test.cir",
+      "source_sha256": "468f8e00ff79b2957c0dbee1547f3bb1f71d979f1c3420a5906c5781f3049834"
+    },
+    {
+      "source": "vga/runs/stage8x8_ac/test.cir",
+      "destination": "vga/runs/stage8x8_ac/test.cir",
+      "source_sha256": "ea912fa09d183cbfae8e697163b121b0b4f2a962a53bd84fa33645dc9f300e85"
+    },
+    {
+      "source": "vga/runs/stage8x8_cal/test.cir",
+      "destination": "vga/runs/stage8x8_cal/test.cir",
+      "source_sha256": "c05986bb1f7726766740409bd4a34ae4605b2fe13ba547fef55f569307d51829"
+    },
+    {
+      "source": "vga/runs/verify_highgain_input_grid/test.cir",
+      "destination": "vga/runs/verify_highgain_input_grid/test.cir",
+      "source_sha256": "3afc678540067d91ab47f1ad6a56f3d269dfbcb9a75c1d06983a6bf814b1bb63"
+    },
+    {
+      "source": "vga/runs/static_k87000_a259/test.cir",
+      "destination": "vga/runs/static_k87000_a259/test.cir",
+      "source_sha256": "ade52c537726b3ca9b0e7feac9dd9b7d34daf5ea9a4d073d1eb692ba367a0842"
+    },
+    {
+      "source": "vga/runs/selected_noise/test.cir",
+      "destination": "vga/runs/selected_noise/test.cir",
+      "source_sha256": "9173e51bd048c32f60f8d0f90d65295aa21e163ccebec1030e448100e59e08b1"
+    },
+    {
+      "source": "vga/runs/dynamic_k54000_36to259/test.cir",
+      "destination": "vga/runs/dynamic_k54000_36to259/test.cir",
+      "source_sha256": "5eac3036a93147567c6fd245af77b5828ecc60331dc0f20295e8994aba9e3758"
+    },
+    {
+      "source": "vga/runs/selected_op_g4/test.cir",
+      "destination": "vga/runs/selected_op_g4/test.cir",
+      "source_sha256": "19f3734d5cd49ac4131dfbf8c9b5b2b171a57f1209a013ed8f8796a0bde667cb"
+    },
+    {
+      "source": "vga/runs/stage8x8_tran/test.cir",
+      "destination": "vga/runs/stage8x8_tran/test.cir",
+      "source_sha256": "32ee5c06f76ff2b180cbb4c3af9d3e46f1420a4b9103494aeedfe6b064d1e2cc"
+    },
+    {
+      "source": "vga/runs/static_k54000_a259/test.cir",
+      "destination": "vga/runs/static_k54000_a259/test.cir",
+      "source_sha256": "c0c5335511f72ea95f84efafff69fac61fef653358cb64985552131c68506dc3"
+    },
+    {
+      "source": "vga/runs/static_k54000_a36/test.cir",
+      "destination": "vga/runs/static_k54000_a36/test.cir",
+      "source_sha256": "210cd936ff89772e795f6e0c950a38416b75501558ff565bca66882291df8081"
+    },
+    {
+      "source": "vga/runs/static_k54000_a65/test.cir",
+      "destination": "vga/runs/static_k54000_a65/test.cir",
+      "source_sha256": "3d9189d9c584e0d4fdf517206f329974234126cdf45f3a956dee5667961c54d4"
+    },
+    {
+      "source": "vga/runs/stage6x10_tran/test.cir",
+      "destination": "vga/runs/stage6x10_tran/test.cir",
+      "source_sha256": "20022e43f1696d5f2aa7f101d6071e3f9d7b89263b19d7a69a37560584f4e583"
+    },
+    {
+      "source": "vga/runs/validation_agc_halfstep/test.cir",
+      "destination": "vga/runs/validation_agc_halfstep/test.cir",
+      "source_sha256": "654d0d5a99b92742d27f64a4657b8ab845de516bedcc98fc3d0c105f7853068f"
+    },
+    {
+      "source": "vga/runs/static_k87000_a36/test.cir",
+      "destination": "vga/runs/static_k87000_a36/test.cir",
+      "source_sha256": "276e8ac7827d1d67136c160dbd902cf992980bc65c5089888be538c4f7956859"
+    },
+    {
+      "source": "vga/runs/static_k87000_a65/test.cir",
+      "destination": "vga/runs/static_k87000_a65/test.cir",
+      "source_sha256": "35d1eddb40acfb9fa22712b6745c4c320eccd76c7ce4013dfa935894798e458f"
+    },
+    {
+      "source": "vga/runs/dynamic_k87000_36to259/test.cir",
+      "destination": "vga/runs/dynamic_k87000_36to259/test.cir",
+      "source_sha256": "3b4e2d350d98cd5700c457c8a214066753c75063dc9697e86a93fb8a83f486ac"
+    },
+    {
+      "source": "vga/runs/verify_agc_temperature_70C/test.cir",
+      "destination": "vga/runs/verify_agc_temperature_70C/test.cir",
+      "source_sha256": "bcf08b037cd811eedb2dbeb631ad448616d72c8b6eeff351e144aa9cc9a1a07a"
+    },
+    {
+      "source": "vga/runs/static_k87000_a104/test.cir",
+      "destination": "vga/runs/static_k87000_a104/test.cir",
+      "source_sha256": "24120bef55950d8c399f7b70e1f7d930e8bdc6a48c04a9978691b50b0ba0d1ba"
+    },
+    {
+      "source": "vga/runs/static_k182000_a208/test.cir",
+      "destination": "vga/runs/static_k182000_a208/test.cir",
+      "source_sha256": "bcb2a002801a9e35ec64349e97528b9e081cf13794534cea5e8d7196a4421cd7"
+    },
+    {
+      "source": "vga/runs/verify_agc_temperature_0C/test.cir",
+      "destination": "vga/runs/verify_agc_temperature_0C/test.cir",
+      "source_sha256": "78c1adc6387915bae9a2e95d1711d9a02ffd6599d79ff3474368054d0dc0582f"
+    },
+    {
+      "source": "vga/runs/stage6x10_ac/test.cir",
+      "destination": "vga/runs/stage6x10_ac/test.cir",
+      "source_sha256": "08d2cd6ebec54502d21f33ba18046eadb32a9f39f435b697c5f9d7eb726b5f70"
+    },
+    {
+      "source": "vga/runs/dynamic_k54000_259to36/test.cir",
+      "destination": "vga/runs/dynamic_k54000_259to36/test.cir",
+      "source_sha256": "70b6d4bee1feb73f28f9a8072e2e9a0f4b82306787955b64ab3a345b536508ce"
+    },
+    {
+      "source": "vga/runs/static_k54000_a104/test.cir",
+      "destination": "vga/runs/static_k54000_a104/test.cir",
+      "source_sha256": "7044cb667ebd968ab6718255412a1f1586cdb5d8096f050d7512578df6afd0be"
+    },
+    {
+      "source": "vga/runs/cascade_ac/test.cir",
+      "destination": "vga/runs/cascade_ac/test.cir",
+      "source_sha256": "7b921f70ae03b430b2e2b736c5f7a17e87ac66900a5f4a6ab95a95ee72dfe0a2"
+    },
+    {
+      "source": "vga/runs/validation_thd_halfstep/test.cir",
+      "destination": "vga/runs/validation_thd_halfstep/test.cir",
+      "source_sha256": "31cb52693bd60cc96e965082136a44f6f648c3e10604111c2e6fc987f3a8fab8"
+    },
+    {
+      "source": "vga/runs/dynamic_k182000_259to36/test.cir",
+      "destination": "vga/runs/dynamic_k182000_259to36/test.cir",
+      "source_sha256": "bdcdb1536cfddd0fea32daa78e151d7baf69fd8d0884e8bc6fe742c37e88bec3"
+    },
+    {
+      "source": "vga/runs/static_k87000_a208/test.cir",
+      "destination": "vga/runs/static_k87000_a208/test.cir",
+      "source_sha256": "d84a590c855e9f7703867d189c81c180cfc0827d893b256ca5025b95d00866fe"
+    },
+    {
+      "source": "vga/runs/static_k182000_a36/test.cir",
+      "destination": "vga/runs/static_k182000_a36/test.cir",
+      "source_sha256": "76087a4e9a94c913715a8c35227dbd3a6c21f52c90428742e19ba32a4b284305"
+    },
+    {
+      "source": "vga/runs/static_k182000_a65/test.cir",
+      "destination": "vga/runs/static_k182000_a65/test.cir",
+      "source_sha256": "ea348b20b64e1a4357a616db45f5aee256c42835ef17bae65529c00bbaf6aeca"
+    },
+    {
+      "source": "vga/runs/static_k182000_a104/test.cir",
+      "destination": "vga/runs/static_k182000_a104/test.cir",
+      "source_sha256": "d75d25d521a0e70cdcb6c119bb97596727c44ed1eb573a469f2e80cead9a6607"
+    },
+    {
+      "source": "vga/runs/static_k54000_a208/test.cir",
+      "destination": "vga/runs/static_k54000_a208/test.cir",
+      "source_sha256": "99202e576b8c19bca114f893fcf59c065e2a82ea7085e3c6d78e57dddd68a291"
+    },
+    {
+      "source": "vga/runs/cascade_agc_259mV/test.cir",
+      "destination": "vga/runs/cascade_agc_259mV/test.cir",
+      "source_sha256": "bf0fb83e501292153fcd2817ef1fb805339abb0bf166eae4788720270d4a10f1"
+    },
+    {
+      "source": "vga/runs/cascade_agc_36mV/test.cir",
+      "destination": "vga/runs/cascade_agc_36mV/test.cir",
+      "source_sha256": "54bcb4c447c49ef74351002907f766566b067a1b5beef2ab631f7ea804486edc"
+    },
+    {
+      "source": "vga/runs/stage6x10_cal/test.cir",
+      "destination": "vga/runs/stage6x10_cal/test.cir",
+      "source_sha256": "8ef7551ee161e9bab48fab69952644f9ea6580f92a624e6e4ff2b2bdd69e85a9"
+    },
+    {
+      "source": "vga/runs/selected_op_g16/test.cir",
+      "destination": "vga/runs/selected_op_g16/test.cir",
+      "source_sha256": "028f70f1e179929cd162b02391f46249545e25f1761d653dd50abdaa758da8b3"
+    },
+    {
+      "source": "vga/runs/static_k182000_a259/test.cir",
+      "destination": "vga/runs/static_k182000_a259/test.cir",
+      "source_sha256": "881f5caf4f1ad040e5aed2d715cb32ce4137d921dbb900c6fa0d57419e852b2a"
+    },
+    {
+      "source": "vga/runs/cascade_agc_104mV/test.cir",
+      "destination": "vga/runs/cascade_agc_104mV/test.cir",
+      "source_sha256": "8bded6a24a9fb306501aa6362e4e4fc1ca4291d9ad1be7beefb7e81a30647744"
+    },
+    {
+      "source": "vga/runs/dynamic_k182000_36to259/test.cir",
+      "destination": "vga/runs/dynamic_k182000_36to259/test.cir",
+      "source_sha256": "7d33e31e942f36bf7181804e83bdb969fd3a4fca061ed741c7e419b948506fa6"
+    },
+    {
+      "source": "vga/runs/validation_rejected_6x10_halfstep/test.cir",
+      "destination": "vga/runs/validation_rejected_6x10_halfstep/test.cir",
+      "source_sha256": "b6a97d1b4de004b67ced7852b82d337c93388767c020eeb4d2f9868c0f4f5101"
+    },
+    {
+      "source": "tia/original_tia.lib",
+      "destination": "vga/models/original_tia.lib",
+      "source_sha256": "557401ea49c66028ee12c9db3faea3f7b2400673bdd118d3c14bb1ffde9d3e0a",
+      "note": "Hash-identical copy of the TIA model."
+    }
+  ],
+  "cloud_only_omitted": [
+    "vga/results/dynamic_k182000_259to36_cycles.csv",
+    "vga/results/cascade_agc_36mV_cycles.csv",
+    "vga/results/verified_highgain_linearity.csv",
+    "vga/results/static_k87000_a259_cycles.csv",
+    "vga/results/static_k87000_a65_cycles.csv",
+    "vga/results/validation_agc_halfstep_cycles.csv",
+    "vga/results/static_k182000_a259_cycles.csv",
+    "vga/results/operating_point.csv",
+    "vga/results/dynamic_k54000_36to259_cycles.csv",
+    "vga/results/static_k182000_a36_cycles.csv",
+    "vga/results/stage8x8_metrics.csv",
+    "vga/results/static_k54000_a259_cycles.csv",
+    "vga/results/cascade_agc_259mV_cycles.csv",
+    "vga/results/dynamic_k87000_259to36_cycles.csv",
+    "vga/results/static_k54000_a65_cycles.csv",
+    "vga/results/dynamic_k87000_36to259_cycles.csv",
+    "vga/results/verify_agc_temperature_0C_cycles.csv",
+    "vga/results/static_k87000_a208_cycles.csv",
+    "vga/results/noise_g16.csv",
+    "vga/results/noise_g4.csv",
+    "vga/results/static_k182000_a65_cycles.csv",
+    "vga/results/static_k54000_a36_cycles.csv",
+    "vga/results/stage6x10_metrics.csv",
+    "vga/results/verify_agc_temperature_70C_cycles.csv",
+    "vga/results/cascade_agc_104mV_cycles.csv",
+    "vga/results/static_k54000_a104_cycles.csv",
+    "vga/results/static_k182000_a208_cycles.csv",
+    "vga/results/static_k87000_a36_cycles.csv",
+    "vga/results/static_k182000_a104_cycles.csv",
+    "vga/results/static_k54000_a208_cycles.csv",
+    "vga/results/dynamic_k54000_259to36_cycles.csv",
+    "vga/results/static_k87000_a104_cycles.csv",
+    "vga/results/dynamic_k182000_36to259_cycles.csv"
+  ],
+  "adaptations": [
+    "study.py uses repository-local helpers and models. LTSPICE_LOCK sets the shared lock path for coordinated reruns.",
+    "The four SVG figures use saved original summary tables without changing their numerical values.",
+    "Run metadata and TIA selection provenance omit original-host workspace paths."
+  ]
+}

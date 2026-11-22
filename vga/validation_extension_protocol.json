@@ -1,0 +1,27 @@
+{
+  "purpose": "Bounded verification of high-gain linearity and temperature sensitivity after frozen design selection, not a selection change.",
+  "tests": {
+    "gain16_input_mVpp": [
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26
+    ],
+    "AGC_temperatures_C": [
+      0,
+      70
+    ],
+    "AGC_input_mVpp": 100,
+    "AGC_target_mVpp": 350
+  },
+  "fixed": "Use selected stage, nominal calibrated controls, selected Ki. Do not retune at temperature.",
+  "criteria": {
+    "linearity_THD_pct_max": 1,
+    "linearity_absolute_gain_deviation_pct_max": 1,
+    "AGC_amplitude_error_pct_max": 5
+  },
+  "ordering": "Written before these additional verification runs. Results do not trigger parameter redraw or selection override."
+}

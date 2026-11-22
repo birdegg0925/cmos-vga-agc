@@ -1,0 +1,88 @@
+{
+  "linearity": [
+    {
+      "input_mVpp": 20,
+      "THD_pct": 0.16687378785150972,
+      "gain_deviation_pct": -0.8296833132294235,
+      "output_mVpp": 316.88068033794525,
+      "passes": true
+    },
+    {
+      "input_mVpp": 21,
+      "THD_pct": 0.17505717227779174,
+      "gain_deviation_pct": -0.8704397946685538,
+      "output_mVpp": 332.5641942796118,
+      "passes": true
+    },
+    {
+      "input_mVpp": 22,
+      "THD_pct": 0.18322547694123423,
+      "gain_deviation_pct": -0.9111286273779773,
+      "output_mVpp": 348.2327347955354,
+      "passes": true
+    },
+    {
+      "input_mVpp": 23,
+      "THD_pct": 0.19137875669481616,
+      "gain_deviation_pct": -0.9517500267231083,
+      "output_mVpp": 363.8863435705343,
+      "passes": true
+    },
+    {
+      "input_mVpp": 24,
+      "THD_pct": 0.19951706674820172,
+      "gain_deviation_pct": -0.9923042070482779,
+      "output_mVpp": 379.5250620934758,
+      "passes": true
+    },
+    {
+      "input_mVpp": 25,
+      "THD_pct": 0.2076404625686166,
+      "gain_deviation_pct": -1.0327913816839285,
+      "output_mVpp": 395.148931658134,
+      "passes": false
+    },
+    {
+      "input_mVpp": 26,
+      "THD_pct": 0.21574899980033632,
+      "gain_deviation_pct": -1.0732117629520643,
+      "output_mVpp": 410.75799336442486,
+      "passes": false
+    }
+  ],
+  "highest_tested_passing_input_mVpp": 24,
+  "lowest_tested_failing_input_mVpp": 25,
+  "temperatures": [
+    {
+      "run": "verify_agc_temperature_0C",
+      "input_Vpp": 0.1,
+      "ki_per_s": 87000,
+      "output_Vpp": 0.3499345440897413,
+      "THD_pct": 0.02278511823619425,
+      "control_mean_V": 1.5795820118695802,
+      "control_ripple_mV": 0.08271442727103562,
+      "power_core_mW": 1.2396537973399988,
+      "provenance": "SIMULATED; time-weighted power calculated from simulated supply current",
+      "amplitude_error_pct": -0.018701688645339498,
+      "temperature_C": 0,
+      "amplitude_passes_5pct": true,
+      "THD_passes_1pct": true
+    },
+    {
+      "run": "verify_agc_temperature_70C",
+      "input_Vpp": 0.1,
+      "ki_per_s": 87000,
+      "output_Vpp": 0.3462580065620799,
+      "THD_pct": 1.9429749724956,
+      "control_mean_V": 1.5188045618953383,
+      "control_ripple_mV": 0.08562405049694632,
+      "power_core_mW": 1.2447445697029484,
+      "provenance": "SIMULATED; time-weighted power calculated from simulated supply current",
+      "amplitude_error_pct": -1.069140982262884,
+      "temperature_C": 70,
+      "amplitude_passes_5pct": true,
+      "THD_passes_1pct": false
+    }
+  ],
+  "scope": "Tested grid, not continuous limit; temperature tests do not prove process corners or manufacture qualification."
+}

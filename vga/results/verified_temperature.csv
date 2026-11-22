@@ -1,0 +1,3 @@
+run,input_Vpp,ki_per_s,output_Vpp,THD_pct,control_mean_V,control_ripple_mV,power_core_mW,provenance,amplitude_error_pct,temperature_C,amplitude_passes_5pct,THD_passes_1pct
+verify_agc_temperature_0C,0.1,87000,0.3499345440897413,0.02278511823619425,1.5795820118695802,0.08271442727103562,1.2396537973399988,SIMULATED; time-weighted power calculated from simulated supply current,-0.018701688645339498,0,True,True
+verify_agc_temperature_70C,0.1,87000,0.3462580065620799,1.9429749724956,1.5188045618953383,0.08562405049694632,1.2447445697029484,SIMULATED; time-weighted power calculated from simulated supply current,-1.069140982262884,70,True,False

@@ -1,0 +1,54 @@
+{
+  "packaged_on": "2026-11-22",
+  "offline_check": {
+    "status": "PASS",
+    "netlists_checked": 40,
+    "model_include_paths_resolve_within_repository": true,
+    "TIA_model_sha256_matches_original_selection": true,
+    "recorded_architecture_and_controller_selection_rechecked": true,
+    "cascade_summary_sanity_checked": true
+  },
+  "fresh_LTspice_check": {
+    "status": "PASS",
+    "analysis": "Original fixed-gain AC sweep at five calibrated control voltages",
+    "detached_temporary_directory": true,
+    "reference_results_modified": false,
+    "simulator_returncode": 0,
+    "gain_magnitudes_at_nearest_1MHz_point": [
+      0.9999999987032678,
+      2.0000000303345127,
+      4.000000530672075,
+      8.000007918789917,
+      16.00011766120701
+    ],
+    "expected_nominal_gains": [
+      1,
+      2,
+      4,
+      8,
+      16
+    ],
+    "scope": "Representative fixed-gain AC sweep at five calibrated control voltages."
+  },
+  "figures": "Four SVG charts regenerated from the saved summary tables.",
+  "dependency_import_test": "PASS: SciPy and NumPy imports and byte-identical generated cascade deck in a separate copy.",
+  "relocated_offline_check": {
+    "status": "PASS",
+    "local_dependencies_only": true,
+    "netlists_checked": 40,
+    "original_TIA_model_hash": "PASS",
+    "recorded_architecture_and_controller_selection": "PASS",
+    "cascade_sanity": "PASS",
+    "fresh_SPICE_simulation": false
+  },
+  "relocated_generated_deck_check": {
+    "status": "PASS",
+    "local_dependencies_only": true,
+    "netlists_checked": 40,
+    "original_TIA_model_hash": "PASS",
+    "recorded_architecture_and_controller_selection": "PASS",
+    "cascade_sanity": "PASS",
+    "fresh_SPICE_simulation": false,
+    "generated_cascade_deck_matches_original": true
+  }
+}

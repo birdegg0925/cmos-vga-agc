@@ -1,0 +1,3 @@
+gain,output_nV_sqrtHz_100k,input_nV_sqrtHz_100k,scope
+4,527.5507822964807,131.8086055680036,"fixed-control DC small-signal, assumed model; excludes behavioural AGC implementation noise"
+16,546.0995099114189,34.11115961932658,"fixed-control DC small-signal, assumed model; excludes behavioural AGC implementation noise"

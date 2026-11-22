@@ -1,0 +1,42 @@
+{
+  "scope": "Fixed experiment protocol for the revised VGA/AGC study. Parameters and selection criteria were fixed before simulation.",
+  "selection_policy": "Ranges and random seeds fixed before runs; no redraw after performance is observed. Preserve failures and original comparisons. Report assumptions separately from simulated outcomes.",
+  "vga": {
+    "seed": 619732,
+    "target_output_vpp": 0.35,
+    "carrier_frequency_hz": 1000000.0,
+    "fixed_stage_candidates": [
+      [
+        8,
+        8
+      ],
+      [
+        6,
+        10
+      ]
+    ],
+    "calibrated_gains": [
+      1,
+      2,
+      4,
+      8,
+      16
+    ],
+    "static_input_vpp": [
+      0.036,
+      0.065,
+      0.104,
+      0.208,
+      0.259
+    ],
+    "integral_strengths_per_s": [
+      54000,
+      87000,
+      182000
+    ],
+    "fixed": "Same educational MOS models, 1.8 V supply, 1 pF load, 1 pF internal compensation, behavioural detector and controller.",
+    "stage_selection": "Compare measured gain coverage, peaking and distortion at 350 mVpp. Prefer candidate with lower worst-case THD only if all five gains have <=1% gain deviation, <=1% THD, >=5 MHz BW and <=0.5 dB peaking. Preserve original 8x8 as comparison; report no pass if both fail.",
+    "controller_selection": "Meet +/-5% steady-state amplitude at all five nominal input levels and post-recovery control ripple <=0.10 mVpp at weakest input; among tested passing strengths choose shortest worse-direction recovery. Recovery must persist at least 20 carrier cycles. Preserve transient overload.",
+    "validation": "Half-step check for a dynamic transition and fixed-gain distortion. Cascade with revised TIA after standalone checks."
+  }
+}

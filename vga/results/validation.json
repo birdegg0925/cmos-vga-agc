@@ -1,0 +1,14 @@
+[
+  {
+    "check": "high_gain_half_max_timestep_2ns_to_1ns",
+    "fundamental_change_pct": 0.0010569606472277115,
+    "THD_difference_percentage_points": 1.6416467139263036e-05
+  },
+  {
+    "check": "AGC_half_max_timestep_5ns_to_2.5ns",
+    "baseline_recovery_us": 36.0,
+    "refined_recovery_us": 36.0,
+    "amplitude_change_pct": 0.004930593213581247,
+    "control_ripple_change_mV": 7.709772376074397e-05
+  }
+]

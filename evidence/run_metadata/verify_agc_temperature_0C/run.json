@@ -1,0 +1,19 @@
+{
+  "success": true,
+  "sha256": "7cca89f62b3b22178608d278fd20bb115657d0aec61ef5a03b007f7ca9ad63d7",
+  "returncode": 0,
+  "wall_s": 26.76959776878357,
+  "command": [
+    "/Applications/LTspice.app/Contents/SharedSupport/ltspice/LTspice/run_ltspice",
+    "-b",
+    "-ascii",
+    "test.cir"
+  ],
+  "conditions": {
+    "temperature_C": 0,
+    "input_Vpp": 0.1,
+    "target_Vpp": 0.35,
+    "ki_per_s": 87000,
+    "controls": "nominal unchanged"
+  }
+}

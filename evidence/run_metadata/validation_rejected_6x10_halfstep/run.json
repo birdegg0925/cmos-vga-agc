@@ -1,0 +1,21 @@
+{
+  "success": true,
+  "sha256": "a9ed0a3c82b006a165226f8044b373c8eaf93645534d941c054bd7c4f5061f51",
+  "returncode": 0,
+  "wall_s": 17.087471961975098,
+  "command": [
+    "/Applications/LTspice.app/Contents/SharedSupport/ltspice/LTspice/run_ltspice",
+    "-b",
+    "-ascii",
+    "test.cir"
+  ],
+  "conditions": {
+    "reason": "Narrow 1% gain-deviation failure; numerical refinement only, no parameter change",
+    "stage": [
+      6,
+      10
+    ],
+    "gain": 16,
+    "dt_ns": 1
+  }
+}

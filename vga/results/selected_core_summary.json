@@ -1,0 +1,58 @@
+{
+  "stage": [
+    8,
+    8
+  ],
+  "control": {
+    "ki_per_s": 87000,
+    "passes": true,
+    "weak_control_ripple_mV": 0.08267381800797224,
+    "worst_recovery_us": 48.0
+  },
+  "operating_points": [
+    {
+      "gain": 4,
+      "control_V": 1.5462135126960361,
+      "output_bias_V": 0.8225520718361921,
+      "supply_current_mA": 0.6897420001240959,
+      "core_power_mW": 1.2415356002233728,
+      "scope": "1.8V analogue core incl. bias; excludes ideal reference and behavioural controller implementation"
+    },
+    {
+      "gain": 16,
+      "control_V": 1.4862789322073584,
+      "output_bias_V": 0.8225520718361565,
+      "supply_current_mA": 0.6897420001240917,
+      "core_power_mW": 1.241535600223365,
+      "scope": "1.8V analogue core incl. bias; excludes ideal reference and behavioural controller implementation"
+    }
+  ],
+  "noise": [
+    {
+      "gain": 4,
+      "output_nV_sqrtHz_100k": 527.5507822964807,
+      "input_nV_sqrtHz_100k": 131.8086055680036,
+      "scope": "fixed-control DC small-signal, assumed model; excludes behavioural AGC implementation noise"
+    },
+    {
+      "gain": 16,
+      "output_nV_sqrtHz_100k": 546.0995099114189,
+      "input_nV_sqrtHz_100k": 34.11115961932658,
+      "scope": "fixed-control DC small-signal, assumed model; excludes behavioural AGC implementation noise"
+    }
+  ],
+  "validation": [
+    {
+      "check": "high_gain_half_max_timestep_2ns_to_1ns",
+      "fundamental_change_pct": 0.0010569606472277115,
+      "THD_difference_percentage_points": 1.6416467139263036e-05
+    },
+    {
+      "check": "AGC_half_max_timestep_5ns_to_2.5ns",
+      "baseline_recovery_us": 36.0,
+      "refined_recovery_us": 36.0,
+      "amplitude_change_pct": 0.004930593213581247,
+      "control_ripple_change_mV": 7.709772376074397e-05
+    }
+  ]
+}

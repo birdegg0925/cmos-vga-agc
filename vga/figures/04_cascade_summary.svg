@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="480" viewBox="0 0 800 480">
+<rect width="800" height="480" fill="white"/>
+<text x="400" y="32" text-anchor="middle" font-family="Arial,sans-serif" font-size="21" fill="#17202a">TIA–VGA steady amplitude regulation</text>
+<text x="400" y="57" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" fill="#17202a">Replotted from recorded simulation summaries — no new simulation</text>
+<path d="M95 365.0 H725" stroke="#dde2e8"/>
+<text x="83" y="370.0" text-anchor="end" font-family="Arial,sans-serif" font-size="13" fill="#17202a">345</text>
+<text x="95.0" y="389" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" fill="#17202a">0.443</text>
+<path d="M95 314.0 H725" stroke="#dde2e8"/>
+<text x="83" y="319.0" text-anchor="end" font-family="Arial,sans-serif" font-size="13" fill="#17202a">347</text>
+<text x="221.0" y="389" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" fill="#17202a">0.991</text>
+<path d="M95 263.0 H725" stroke="#dde2e8"/>
+<text x="83" y="268.0" text-anchor="end" font-family="Arial,sans-serif" font-size="13" fill="#17202a">349</text>
+<text x="347.0" y="389" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" fill="#17202a">1.54</text>
+<path d="M95 212.0 H725" stroke="#dde2e8"/>
+<text x="83" y="217.0" text-anchor="end" font-family="Arial,sans-serif" font-size="13" fill="#17202a">351</text>
+<text x="473.0" y="389" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" fill="#17202a">2.09</text>
+<path d="M95 161.0 H725" stroke="#dde2e8"/>
+<text x="83" y="166.0" text-anchor="end" font-family="Arial,sans-serif" font-size="13" fill="#17202a">353</text>
+<text x="599.0" y="389" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" fill="#17202a">2.64</text>
+<path d="M95 110.0 H725" stroke="#dde2e8"/>
+<text x="83" y="115.0" text-anchor="end" font-family="Arial,sans-serif" font-size="13" fill="#17202a">355</text>
+<text x="725.0" y="389" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" fill="#17202a">3.19</text>
+<path d="M95 110 V365 H725" stroke="#17202a" fill="none"/>
+<text x="410" y="420" text-anchor="middle" font-family="Arial,sans-serif" font-size="15" fill="#17202a">Detector input current (µApp)</text>
+<text transform="translate(25 235) rotate(-90)" text-anchor="middle" font-family="Arial,sans-serif" font-size="15">Steady output (mVpp)</text>
+<path d="M95 237.5 H725" stroke="#a12a32" stroke-dasharray="6 4"/>
+<text x="720" y="231.5" text-anchor="end" font-family="Arial,sans-serif" font-size="12" fill="#17202a">Target 350</text>
+<polyline points="95.0,243.25698691381118 287.10762331838555,239.15329961264518 725.0,238.07932354979934" fill="none" stroke="#1c5795" stroke-width="2.4"/>
+<circle cx="95.0" cy="243.25698691381118" r="4" fill="#1c5795"/>
+<circle cx="287.10762331838555" cy="239.15329961264518" r="4" fill="#1c5795"/>
+<circle cx="725.0" cy="238.07932354979934" r="4" fill="#1c5795"/>
+<path d="M100 84 h25" stroke="#1c5795" stroke-width="3"/>
+<text x="134" y="89" text-anchor="start" font-family="Arial,sans-serif" font-size="13" fill="#17202a">Behavioural AGC</text>
+</svg>

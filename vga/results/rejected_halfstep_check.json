@@ -1,0 +1,8 @@
+{
+  "baseline_gain_deviation_pct": -1.0280575048837504,
+  "refined_gain_deviation_pct": -1.0280562415162509,
+  "refined_THD_pct": 0.20638657500688107,
+  "still_fails": true,
+  "target_output_Vpp": 0.35,
+  "maximum_step_ns": 1
+}

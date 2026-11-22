@@ -1,0 +1,81 @@
+{
+  "ac": [
+    {
+      "gain_setting": 1,
+      "gain_TIA_to_input_1MHz_ohm": 81320.96779910594,
+      "total_transimpedance_1MHz_ohm": 81320.96773023791,
+      "bandwidth_MHz": 7.15459043541548,
+      "peaking_dB": 0.0022180947982327484
+    },
+    {
+      "gain_setting": 4,
+      "gain_TIA_to_input_1MHz_ohm": 81318.34109304468,
+      "total_transimpedance_1MHz_ohm": 325273.40518427966,
+      "bandwidth_MHz": 7.15562783448823,
+      "peaking_dB": 0.0019292116663987776
+    },
+    {
+      "gain_setting": 16,
+      "gain_TIA_to_input_1MHz_ohm": 81307.67411768337,
+      "total_transimpedance_1MHz_ohm": 1300932.35264201,
+      "bandwidth_MHz": 7.158611986673299,
+      "peaking_dB": 0.0009744627785486289
+    }
+  ],
+  "agc": [
+    {
+      "run": "cascade_agc_36mV",
+      "input_Vpp": 0.036,
+      "ki_per_s": 87000,
+      "output_Vpp": 0.34977423580730155,
+      "THD_pct": 0.05633353152031944,
+      "control_mean_V": 1.4990163082685473,
+      "control_ripple_mV": 0.08266777897891764,
+      "power_core_mW": 1.2415357171167343,
+      "provenance": "SIMULATED; time-weighted power calculated from simulated supply current",
+      "amplitude_error_pct": -0.0645040550566911,
+      "current_source_pp_A": 4.4270455491472323e-07,
+      "nominal_input_Vpp": 0.036,
+      "actual_VGA_input_Vpp": 0.035994663710533836,
+      "actual_TIA_output_Vpp": 0.03599384110081827,
+      "TIA_THD_pct": 0.0005945913799136761
+    },
+    {
+      "run": "cascade_agc_104mV",
+      "input_Vpp": 0.104,
+      "ki_per_s": 87000,
+      "output_Vpp": 0.3499351647210727,
+      "THD_pct": 0.02271573980166443,
+      "control_mean_V": 1.5611143068195934,
+      "control_ripple_mV": 0.08274147799314235,
+      "power_core_mW": 1.241535699472042,
+      "provenance": "SIMULATED; time-weighted power calculated from simulated supply current",
+      "amplitude_error_pct": -0.018524365407790455,
+      "current_source_pp_A": 1.278924269753645e-06,
+      "nominal_input_Vpp": 0.104,
+      "actual_VGA_input_Vpp": 0.10399492632905871,
+      "actual_TIA_output_Vpp": 0.10399636143517643,
+      "TIA_THD_pct": 0.002093601969512644
+    },
+    {
+      "run": "cascade_agc_259mV",
+      "input_Vpp": 0.259,
+      "ki_per_s": 87000,
+      "output_Vpp": 0.34997728142941964,
+      "THD_pct": 0.01593174534818625,
+      "control_mean_V": 1.7026491446747796,
+      "control_ripple_mV": 0.0830329034251509,
+      "power_core_mW": 1.2415356944778302,
+      "provenance": "SIMULATED; time-weighted power calculated from simulated supply current",
+      "amplitude_error_pct": -0.0064910201658108235,
+      "current_source_pp_A": 3.1850133256364817e-06,
+      "nominal_input_Vpp": 0.259,
+      "actual_VGA_input_Vpp": 0.25899305991444566,
+      "actual_TIA_output_Vpp": 0.2589866874242216,
+      "TIA_THD_pct": 0.005578593575229697
+    }
+  ],
+  "coupling_F": 1e-08,
+  "bias_resistance_ohm": 1000000.0,
+  "scope": "actual transistor-level TIA-VGA coupling with behavioural AGC, not ideal voltage substitution"
+}

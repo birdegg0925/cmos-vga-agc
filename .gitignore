@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+.ltspice_serial.lock
+.mplconfig/
+vga/runs/**/*.raw
+vga/runs/**/*.log
+vga/runs/**/run.json
+vga/superseded_runs/

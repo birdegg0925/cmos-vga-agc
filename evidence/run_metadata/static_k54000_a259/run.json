@@ -1,0 +1,21 @@
+{
+  "success": true,
+  "sha256": "fc36a9bab79478d8e266a3408d0b9c2685285da4f8e55486d0b26706ece1691a",
+  "returncode": 0,
+  "wall_s": 14.19521689414978,
+  "command": [
+    "/Applications/LTspice.app/Contents/SharedSupport/ltspice/LTspice/run_ltspice",
+    "-b",
+    "-ascii",
+    "test.cir"
+  ],
+  "conditions": {
+    "stage": [
+      8,
+      8
+    ],
+    "amp": 0.259,
+    "ki": 54000,
+    "target": 0.35
+  }
+}

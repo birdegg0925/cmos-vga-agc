@@ -1,0 +1,41 @@
+{
+  "success": true,
+  "sha256": "c25cc389b9a854da8b0f3ee6c6cc511ee9bd80e4ecad236bdd686de586a0f70f",
+  "returncode": 0,
+  "wall_s": 26.10963010787964,
+  "command": [
+    "/Applications/LTspice.app/Contents/SharedSupport/ltspice/LTspice/run_ltspice",
+    "-b",
+    "-ascii",
+    "test.cir"
+  ],
+  "conditions": {
+    "stage": [
+      8,
+      8
+    ],
+    "output_target_Vpp": 0.35,
+    "points": [
+      {
+        "target_gain": 1,
+        "vc": 1.7859508609292825
+      },
+      {
+        "target_gain": 2,
+        "vc": 1.6261259764237044
+      },
+      {
+        "target_gain": 4,
+        "vc": 1.5462135126960361
+      },
+      {
+        "target_gain": 8,
+        "vc": 1.5062572266830767
+      },
+      {
+        "target_gain": 16,
+        "vc": 1.4862789322073584
+      }
+    ]
+  }
+}

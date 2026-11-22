@@ -1,0 +1,191 @@
+{
+  "candidates": [
+    {
+      "stage": [
+        8,
+        8
+      ],
+      "tag": "stage8x8",
+      "rows": [
+        {
+          "stage": "stage8x8",
+          "step": 0,
+          "target_gain": 1,
+          "vc": 1.7859508609292825,
+          "gain_100k": 1.0006060627631779,
+          "gain_1M": 0.9999999987032677,
+          "bandwidth_MHz": 24.15716098695454,
+          "peaking_dB": 7.669701543671373e-05,
+          "output_Vpp": 0.3497388141530021,
+          "fundamental_Vpp": 0.3497792104063038,
+          "THD_pct": 0.015788447163576403,
+          "gain_deviation_pct": -0.0620024882976411,
+          "passes": true,
+          "provenance": "SIMULATED"
+        },
+        {
+          "stage": "stage8x8",
+          "step": 1,
+          "target_gain": 2,
+          "vc": 1.6261259764237044,
+          "gain_100k": 2.0012079301288885,
+          "gain_1M": 2.000000030334513,
+          "bandwidth_MHz": 24.182551996127316,
+          "peaking_dB": 7.651144503745367e-05,
+          "output_Vpp": 0.3495031522054106,
+          "fundamental_Vpp": 0.34957920659179426,
+          "THD_pct": 0.025874799336624267,
+          "gain_deviation_pct": -0.11920513267817956,
+          "passes": true,
+          "provenance": "SIMULATED"
+        },
+        {
+          "stage": "stage8x8",
+          "step": 2,
+          "target_gain": 4,
+          "vc": 1.5462135126960361,
+          "gain_100k": 4.002400146963872,
+          "gain_1M": 4.000000530672075,
+          "bandwidth_MHz": 24.228484381847228,
+          "peaking_dB": 7.615629185709595e-05,
+          "output_Vpp": 0.3490357018609792,
+          "fundamental_Vpp": 0.34917888377643,
+          "THD_pct": 0.04791429385599871,
+          "gain_deviation_pct": -0.23320302515368319,
+          "passes": true,
+          "provenance": "SIMULATED"
+        },
+        {
+          "stage": "stage8x8",
+          "step": 3,
+          "target_gain": 8,
+          "vc": 1.5062572266830767,
+          "gain_100k": 8.004748230806339,
+          "gain_1M": 8.000007918789917,
+          "bandwidth_MHz": 24.300465316648495,
+          "peaking_dB": 7.550962029462388e-05,
+          "output_Vpp": 0.3481068664035021,
+          "fundamental_Vpp": 0.34838760957227166,
+          "THD_pct": 0.0929175240896549,
+          "gain_deviation_pct": -0.45958701317241335,
+          "passes": true,
+          "provenance": "SIMULATED"
+        },
+        {
+          "stage": "stage8x8",
+          "step": 4,
+          "target_gain": 16,
+          "vc": 1.4862789322073584,
+          "gain_100k": 16.00940912023442,
+          "gain_1M": 16.000117661207014,
+          "bandwidth_MHz": 24.362099434208126,
+          "peaking_dB": 7.447079362342511e-05,
+          "output_Vpp": 0.3462711546418369,
+          "fundamental_Vpp": 0.3468262566825169,
+          "THD_pct": 0.18218884519465195,
+          "gain_deviation_pct": -0.9060473485067,
+          "passes": true,
+          "provenance": "SIMULATED"
+        }
+      ],
+      "all_pass": true,
+      "worst_THD_pct": 0.18218884519465195
+    },
+    {
+      "stage": [
+        6,
+        10
+      ],
+      "tag": "stage6x10",
+      "rows": [
+        {
+          "stage": "stage6x10",
+          "step": 0,
+          "target_gain": 1,
+          "vc": 1.7659535459924742,
+          "gain_100k": 1.0006682163616158,
+          "gain_1M": 0.9999999995271087,
+          "bandwidth_MHz": 23.684950887447545,
+          "peaking_dB": 8.811698502582938e-05,
+          "output_Vpp": 0.34970473976932337,
+          "fundamental_Vpp": 0.34974916594228717,
+          "THD_pct": 0.016150892424602856,
+          "gain_deviation_pct": -0.07020477979094997,
+          "passes": true,
+          "provenance": "SIMULATED"
+        },
+        {
+          "stage": "stage6x10",
+          "step": 1,
+          "target_gain": 2,
+          "vc": 1.6161272326546607,
+          "gain_100k": 2.0013330983114526,
+          "gain_1M": 2.0000000369254685,
+          "bandwidth_MHz": 23.711376842944404,
+          "peaking_dB": 8.796907170825779e-05,
+          "output_Vpp": 0.3494366964959257,
+          "fundamental_Vpp": 0.34952151324819003,
+          "THD_pct": 0.028314135932359104,
+          "gain_deviation_pct": -0.13526582371899964,
+          "passes": true,
+          "provenance": "SIMULATED"
+        },
+        {
+          "stage": "stage6x10",
+          "step": 2,
+          "target_gain": 4,
+          "vc": 1.5412140532007532,
+          "gain_100k": 4.0026540681194644,
+          "gain_1M": 4.000000609109131,
+          "bandwidth_MHz": 23.75861813476564,
+          "peaking_dB": 8.769132464984302e-05,
+          "output_Vpp": 0.34890247691369203,
+          "fundamental_Vpp": 0.3490690491261267,
+          "THD_pct": 0.05382764885989543,
+          "gain_deviation_pct": -0.26486123385547344,
+          "passes": true,
+          "provenance": "SIMULATED"
+        },
+        {
+          "stage": "stage6x10",
+          "step": 3,
+          "target_gain": 8,
+          "vc": 1.5037574931808855,
+          "gain_100k": 8.005253207074892,
+          "gain_1M": 7.999990351730569,
+          "bandwidth_MHz": 23.832772687088134,
+          "peaking_dB": 8.720814816887773e-05,
+          "output_Vpp": 0.34785086687637223,
+          "fundamental_Vpp": 0.34816896487940424,
+          "THD_pct": 0.10515805271104631,
+          "gain_deviation_pct": -0.52196850011208,
+          "passes": true,
+          "provenance": "SIMULATED"
+        },
+        {
+          "stage": "stage6x10",
+          "step": 4,
+          "target_gain": 16,
+          "vc": 1.485029026808374,
+          "gain_100k": 16.01044548226642,
+          "gain_1M": 16.000043148856935,
+          "bandwidth_MHz": 23.896427505644617,
+          "peaking_dB": 8.653104124711964e-05,
+          "output_Vpp": 0.3457707427895439,
+          "fundamental_Vpp": 0.3463978701613901,
+          "THD_pct": 0.2063692172578431,
+          "gain_deviation_pct": -1.0280575048837504,
+          "passes": false,
+          "provenance": "SIMULATED"
+        }
+      ],
+      "all_pass": false,
+      "worst_THD_pct": 0.2063692172578431
+    }
+  ],
+  "selected_stage": [
+    8,
+    8
+  ],
+  "selection_protocol": "Compare measured gain coverage, peaking and distortion at 350 mVpp. Prefer candidate with lower worst-case THD only if all five gains have <=1% gain deviation, <=1% THD, >=5 MHz BW and <=0.5 dB peaking. Preserve original 8x8 as comparison; report no pass if both fail."
+}

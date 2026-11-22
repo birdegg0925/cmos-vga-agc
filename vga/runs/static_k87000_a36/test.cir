@@ -1,0 +1,26 @@
+* CMOS VGA simulation with generic Level-1 MOS models.
+.param vc=1.5 cc=1 bias=1 cl=1 g1=8 g2=8 scale=4 rin=5000 amp=0.036 freq=1000000.0 vdd=1.8 vcm=0.9 tdeg=27 dt=5 stop=300 kf=1e-25 ppd=120
+.param KFL={kf}
+.include ../../models/vga.lib
+.options plotwinsize=0 numdgt=15 reltol=1e-5 abstol=1e-13 vntol=1e-8 chgtol=1e-20 trtol=1 method=trap
+.temp {tdeg}
+VDD VDD 0 {vdd}
+VREF REF 0 {vcm}
+VIN VIN 0 SINE({vcm} {amp/2} {freq}) AC 1
+.param ki=87000 tauenv=1 vlo=1.48627893221 vhi=1.78595086093
+CCTRL CTRL 0 1n
+RCTRL CTRL 0 1T
+BINT 0 CTRL I=ki*1n*(max(V(ENV)-0.35/pi,0)*limit((vhi-V(CTRL))/1m,0,1)+min(V(ENV)-0.35/pi,0)*limit((V(CTRL)-vlo)/1m,0,1))+1m*(max(vlo-V(CTRL),0)-max(V(CTRL)-vhi,0))
+.ic V(CTRL)=1.55
+BABS RECT 0 V=abs(V(SENSE))
+RENV RECT ENV 1k
+CENV ENV 0 {tauenv*1n}
+
+* Complementary control-gate driver is behavioural, no power/noise claim.
+BCP CP 0 V=V(VDD)-V(CTRL)
+XG VIN OUT CTRL CP REF VDD 0 VGA CC={cc*1p} BIAS={bias} CL={cl*1p} G1={g1} G2={g2} SCALE={scale} RIN={rin}
+.tran 0 {stop*1u} 0 {dt*1n}
+.save V(OUT) V(VIN) V(CTRL) V(ENV) V(SENSE) V(xg:att) V(xg:mid) I(VDD) I(VREF) I(BCP)
+CDET OUT SENSE 10p
+RDET SENSE 0 1Meg
+.end
