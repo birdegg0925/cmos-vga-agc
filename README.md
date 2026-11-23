@@ -42,7 +42,7 @@ Values above are rounded from preserved `vga/results` tables. Power is calculate
 - `tia/selection.json`: numerical TIA settings and original model hash, required by cascade tests.
 - `plot_summary_svg.py`: regenerate the included SVG figures with Python's standard library only. `plot_results.py` creates additional Matplotlib PNG/SVG plots when its dependencies are installed.
 - `check_package.py`: local dependencies, model hash, deck includes and result sanity checks.
-- `evidence/`: source provenance, omitted-file inventory and path-sanitised original run metadata.
+- `evidence/`: data sources, omitted files and simulation run metadata.
 
 The figures use the saved summary tables. The [verification record](evidence/package_checks.json) covers a representative LTspice AC sweep at five gains near 1 MHz, dependency imports and generated cascade-deck equivalence.
 
